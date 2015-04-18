@@ -1,0 +1,252 @@
+# depslib dependency file v1.0
+1427815624 source:c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\blacknwhite.cpp
+	<opencv2/core/core.hpp>
+	<opencv/cv.h>
+	"global_variables.h"
+
+1429188920 c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\global_variables.h
+	"Points.h"
+
+1428594571 source:c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\calcrotateangle.cpp
+	"Points.h"
+	<math.h>
+
+1429021499 c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\include\points.h
+
+1428681119 source:c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\clear_traversed_path.cpp
+	"global_variables.h"
+	"Points.h"
+	<opencv2/core/core.hpp>
+	<opencv/cv.h>
+
+1428597977 source:c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\clear_traversed_point.cpp
+	"global_variables.h"
+	"Points.h"
+	<opencv2/core/core.hpp>
+	<opencv/cv.h>
+
+1428680466 source:c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\detect_borders.cpp
+	<opencv2/core/core.hpp>
+	<opencv/cv.h>
+	"global_variables.h"
+
+1429266081 source:c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\draw_image_on_window.cpp
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv/cv.h>
+	<iostream>
+	"Points.h"
+	"global_variables.h"
+
+1428745018 source:c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\make_a_path.cpp
+	"global_variables.h"
+	"Points.h"
+	<opencv2/core/core.hpp>
+	<opencv/cv.h>
+	"path_algo_related_functions.h"
+
+1428669372 c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\path_algo_related_functions.h
+	"global_variables.h"
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv/cv.h>
+	"Points.h"
+	"image_functions.h"
+
+1428087009 c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\image_functions.h
+	<opencv/cv.h>
+
+1428769381 source:c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\merge_paths.cpp
+	<iostream>
+	<vector>
+	"global_variables.h"
+	"Points.h"
+
+1428597977 source:c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\nextpoint.cpp
+	"global_variables.h"
+	"Points.h"
+	<opencv2/core/core.hpp>
+	<opencv/cv.h>
+
+1428599769 source:c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\nextpointtodraw.cpp
+	"global_variables.h"
+	"Points.h"
+	"path_algo_related_functions.h"
+	<vector>
+
+1427225331 source:c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\remove_noise.cpp
+	<opencv2/core/core.hpp>
+	<opencv/cv.h>
+	<iostream>
+	"global_variables.h"
+
+1426931737 source:c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\resize_image.cpp
+	<opencv2/core/core.hpp>
+	<opencv/cv.h>
+	"global_variables.h"
+
+1429188966 source:c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\specify_drawing_resolution.cpp
+	<iostream>
+	"global_variables.h"
+
+1429021501 source:c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\src\points.cpp
+	"Points.h"
+
+1428597977 source:c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\startingpoint.cpp
+	<opencv2/core/core.hpp>
+	<opencv/cv.h>
+	"global_variables.h"
+	"Points.h"
+
+1429255486 source:c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\windowsh.cpp
+	<windows.h>
+	<iostream>
+
+1429265808 source:c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\main.cpp
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv/cv.h>
+	<iostream>
+	"Points.h"
+	"image_functions.h"
+	"global_variables.h"
+	"path_algo_related_functions.h"
+	"Draw_image_on_window.h"
+	"windowsh.h"
+	"parsing.h"
+
+1429252054 c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\draw_image_on_window.h
+
+1428824945 c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\windowsh.h
+
+1429224058 c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\parsing.h
+
+1429226142 source:c:\users\varunesh\course\sem2\cs101\project\sketchbot_complete_jk\parsing.cpp
+	<iostream>
+
+1429292934 source:c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\blacknwhite.cpp
+	<opencv2/core/core.hpp>
+	<opencv/cv.h>
+	"global_variables.h"
+
+1429292958 c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\global_variables.h
+	"Points.h"
+
+1429293018 c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\include\points.h
+
+1429292940 source:c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\calcrotateangle.cpp
+	"Points.h"
+	<math.h>
+
+1429292942 source:c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\clear_traversed_path.cpp
+	"global_variables.h"
+	"Points.h"
+	<opencv2/core/core.hpp>
+	<opencv/cv.h>
+
+1429292944 source:c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\clear_traversed_point.cpp
+	"global_variables.h"
+	"Points.h"
+	<opencv2/core/core.hpp>
+	<opencv/cv.h>
+
+1429292946 source:c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\detect_borders.cpp
+	<opencv2/core/core.hpp>
+	<opencv/cv.h>
+	"global_variables.h"
+
+1429292952 source:c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\draw_image_on_window.cpp
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv/cv.h>
+	<iostream>
+	"Points.h"
+	"global_variables.h"
+
+1429292964 source:c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\main.cpp
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv/cv.h>
+	<iostream>
+	<windows.h>
+	"Points.h"
+	"image_functions.h"
+	"global_variables.h"
+	"path_algo_related_functions.h"
+	"Draw_image_on_window.h"
+	"windowsh.h"
+	"parsing.h"
+
+1429292962 c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\image_functions.h
+	<opencv/cv.h>
+
+1429292986 c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\path_algo_related_functions.h
+	"global_variables.h"
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv/cv.h>
+	"Points.h"
+	"image_functions.h"
+
+1429292954 c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\draw_image_on_window.h
+
+1429293016 c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\windowsh.h
+
+1429292984 c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\parsing.h
+
+1429292970 source:c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\make_a_path.cpp
+	"global_variables.h"
+	"Points.h"
+	<opencv2/core/core.hpp>
+	<opencv/cv.h>
+	"path_algo_related_functions.h"
+
+1429292972 source:c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\merge_paths.cpp
+	<iostream>
+	<vector>
+	"global_variables.h"
+	"Points.h"
+
+1429292974 source:c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\nextpoint.cpp
+	"global_variables.h"
+	"Points.h"
+	<opencv2/core/core.hpp>
+	<opencv/cv.h>
+
+1429292978 source:c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\nextpointtodraw.cpp
+	"global_variables.h"
+	"Points.h"
+	"path_algo_related_functions.h"
+	<vector>
+
+1429292980 source:c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\parsing.cpp
+	<iostream>
+
+1429292988 source:c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\remove_noise.cpp
+	<opencv2/core/core.hpp>
+	<opencv/cv.h>
+	<iostream>
+	"global_variables.h"
+
+1429292990 source:c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\resize_image.cpp
+	<opencv2/core/core.hpp>
+	<opencv/cv.h>
+	"global_variables.h"
+
+1429293002 source:c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\specify_drawing_resolution.cpp
+	<iostream>
+	"global_variables.h"
+
+1429293020 source:c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\src\points.cpp
+	"Points.h"
+
+1429293004 source:c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\startingpoint.cpp
+	<opencv2/core/core.hpp>
+	<opencv/cv.h>
+	"global_variables.h"
+	"Points.h"
+
+1429293014 source:c:\users\saurabh chavan\desktop\temp\sketchbot_complete_jk\windowsh.cpp
+	<windows.h>
+	<iostream>
+

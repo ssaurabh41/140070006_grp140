@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SketchBot_Complete_jk" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SketchBot_Complete_jk" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SketchBot_Complete_jk" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="BlackNWhite.cpp" />
+		<Unit filename="Draw_image_on_window.cpp" />
+		<Unit filename="Draw_image_on_window.h" />
+		<Unit filename="calcRotateAngle.cpp" />
+		<Unit filename="clear_traversed_path.cpp" />
+		<Unit filename="clear_traversed_point.cpp" />
+		<Unit filename="detect_borders.cpp" />
+		<Unit filename="global_variables.h" />
+		<Unit filename="image_functions.h" />
+		<Unit filename="include/Points.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="make_a_path.cpp" />
+		<Unit filename="merge_paths.cpp" />
+		<Unit filename="nextPoint.cpp" />
+		<Unit filename="nextPointToDraw.cpp" />
+		<Unit filename="parsing.cpp" />
+		<Unit filename="parsing.h" />
+		<Unit filename="path_algo_related_functions.h" />
+		<Unit filename="remove_noise.cpp" />
+		<Unit filename="resize_image.cpp" />
+		<Unit filename="specify_drawing_resolution.cpp" />
+		<Unit filename="src/Points.cpp" />
+		<Unit filename="startingPoint.cpp" />
+		<Unit filename="windowsh.cpp" />
+		<Unit filename="windowsh.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
