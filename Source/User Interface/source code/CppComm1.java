@@ -9,9 +9,28 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 import javax.swing.JOptionPane;
+/*
+ * 	This class is brought into use to communicate with the image processing code written in C++ using OpenCV libraries
+This class is used when the user wishes to draw the image.  
+
+
+This class has only one function i. e. InitComm
+
+ */
 // class to communicate with image generating tool
 public class CppComm1 {
 	//recieves path of the exe file from the GUI 
+	
+	/*
+	 * Function : InitComm(String, Container, String, String)
+	This function accepts the path of the executable file of the image processing code and the resolution of the image. It also recieves the contentpane of the calling page to display a message box. 
+
+ Of these resolution are sent to the c++ code by an output stream in the form of a single string separated by commas. A parity bit is also sent. this bit helps the C++ program determine whether the user chose to draw an image or upload an image
+This function sends a  ‘0’ to denote that the user chose to draw the image. 
+
+
+
+	 */
 	public void initComm(String path,Container contentpane,String resx,String resy){
 		Process p;
 		String line;

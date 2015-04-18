@@ -20,7 +20,30 @@ import javax.swing.JTextField;
 import javax.swing.SpringLayout;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
+/*
+ * This is by far the most extensive class. It generates the form which allows the user to upload the image and resolution in X and Y direction. 
 
+
+
+It has four Buttons:
+Browse
+Enter
+Clear
+Back
+
+Browse Button : It opens up the window which allows the user to browse  
+                           and select the file. 
+
+Enter Button :     It calls the function initComm of CppCommunication or 
+                           CppComm1. 
+
+Clear Button :     It clears the Text Fields
+
+Back Button :      It closes this window and takes the user back to the 
+main page. 
+                          
+
+ */
 public class UserFrame  {
 	final public JFrame frame;
 	final public Container contentpane;
@@ -32,6 +55,13 @@ public class UserFrame  {
 
 	//this function converts the address of the image browsed to address of 
 	//imageproc.exe which is in same directory
+	
+	/*
+	 * Function: getAddress(String)
+	Return Type: String
+	This function returns return the address of the executable file using the address of the image file. It uses the fact that the executable file and the image are in the same folder. 
+
+	 */
 	public String getAddress(String path){
 		String newpath="";
 		
@@ -63,6 +93,17 @@ public class UserFrame  {
 	//int optionNO helps decide the task for which it is being used
 	//1 : uploading the image
 	//2 : browsing the image creation tool
+	/*
+	 * Constructor : UserFrame(int)
+		It generates the upload page by adding suitable GUI elements to the window. 
+		It receives an integer as a parameter. this integer indicates whether the frame will be used for uploading the image or creating the image. The following values of the input parameter carry the specified meaning. 
+
+1 : Image Upload
+2 : Image Draw
+
+
+
+	 */
 	
 	public UserFrame(final int optionNo) {
 		//declaration of GUI elements

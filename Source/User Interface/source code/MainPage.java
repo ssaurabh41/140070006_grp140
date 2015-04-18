@@ -12,7 +12,32 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JRadioButton;
 import javax.swing.SpringLayout;
+/*
+ * The execution of the inteface starts with the execution of this class. 
+Used to generate the main page or the opening window of the GUI. 
+Consists of two Radio buttons and two command buttons. 
 
+The two radio button direct to 
+Upload Image
+Create Image
+
+The two buttons are 
+Enter
+Exit
+
+Enter Button: Opens up the next window depending upon the selected                           
+                       radio button. If none of the options are selected the user 
+                       is prompted to select one and then press Enter. 
+Exit Button : Closes the application
+
+Constructor: MainPage()
+		It generates the main page. 
+		Also calls the constructor of class UserFrame. 
+
+Main Function : Explicitely calls the constructor of this class
+
+
+ */
 public class MainPage {
 	final JFrame frameMain;
 	final Container contentpane;
